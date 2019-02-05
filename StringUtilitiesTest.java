@@ -173,4 +173,18 @@ public class StringUtilitiesTest {
         // : Then
         assertEquals(expected, actual);
     }
+    
+    @Test
+    public void reverseThem2(){
+        // : Given
+        String input = "Z";
+        String expected = "Z";
+
+
+        // : When
+        String actual = StringUtilities.reverse(input);
+
+        // : Then
+        assertEquals(expected, actual);
+    }
 }
